@@ -4,7 +4,7 @@ function App() {
   const [edit, setEdit] = useState('');
 
   const [todo, setTodo] = useState('');
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState(["aaa","bbb"]);
   
   useEffect(() => {
     setTodos(JSON.parse(localStorage.getItem('cc')));
